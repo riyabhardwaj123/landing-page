@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+.f-i-c {
+  @apply flex items-center gap-4;
+}
+
+.bg-primary {
+  background-color: #ffffff;
+}
+.bg-secondary {
+  background-color: #6b009f;
+}
